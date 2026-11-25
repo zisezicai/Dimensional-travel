@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4sgyjii26bp5"]
+
+[ext_resource type="Script" uid="uid://cn4gvqnb0y5cj" path="res://scripts/Door.cs" id="1_hhgcp"]
+[ext_resource type="Texture2D" uid="uid://cttu0n5ak85g5" path="res://pictures/传送门.png" id="2_v8ywy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4gjkj"]
+radius = 30.016663
+
+[node name="door" type="Node2D"]
+script = ExtResource("1_hhgcp")
+takebackdistance = 200.0
+
+[node name="firstdoor" type="Area2D" parent="."]
+
+[node name="appearance" type="Sprite2D" parent="firstdoor"]
+texture = ExtResource("2_v8ywy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="firstdoor"]
+shape = SubResource("CircleShape2D_4gjkj")
+
+[node name="seconddoor" type="Area2D" parent="."]
+
+[node name="appearance" type="Sprite2D" parent="seconddoor"]
+texture = ExtResource("2_v8ywy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="seconddoor"]
+shape = SubResource("CircleShape2D_4gjkj")

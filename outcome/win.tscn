@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4rgv778b63dj"]
+
+[ext_resource type="Texture2D" uid="uid://brjjr6stv0i6v" path="res://pictures/win.png" id="1_2hibl"]
+[ext_resource type="Script" uid="uid://dla55840j6clc" path="res://outcome/WinNext.cs" id="2_d0mv0"]
+
+[node name="Win" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 187.0
+offset_right = 995.0
+offset_bottom = 371.0
+scale = Vector2(0.75193447, 1.3046906)
+texture_normal = ExtResource("1_2hibl")
+script = ExtResource("2_d0mv0")

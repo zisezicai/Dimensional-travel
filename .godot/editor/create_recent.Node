@@ -1,0 +1,14 @@
+Sprite2D
+CollisionShape2D
+Area2D
+TextureButton
+Button
+Label
+Node2D
+HScrollBar
+StaticBody2D
+CharacterBody2D
+RigidBody2D
+Camera2D
+AnimatedSprite2D
+AnimationPlayer

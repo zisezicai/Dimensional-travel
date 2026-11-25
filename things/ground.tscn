@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxj32vty31acf"]
+
+[ext_resource type="Script" uid="uid://dey3626wy2b2f" path="res://scripts/GroundForAll.cs" id="1_3rwyk"]
+[ext_resource type="Texture2D" uid="uid://b1qux6mklnb26" path="res://pictures/ground.png" id="2_xhe3p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2o4ko"]
+size = Vector2(86, 6)
+
+[node name="ground" type="StaticBody2D" groups=["grounds"]]
+script = ExtResource("1_3rwyk")
+
+[node name="appearance" type="Sprite2D" parent="."]
+texture_repeat = 2
+scale = Vector2(1.0117648, 1.2000017)
+texture = ExtResource("2_xhe3p")
+region_enabled = true
+region_rect = Rect2(0, 0, 85, 5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_2o4ko")

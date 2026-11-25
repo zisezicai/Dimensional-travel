@@ -1,0 +1,17 @@
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\Dimensional_travel.deps.json
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\Dimensional_travel.runtimeconfig.json
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\Dimensional_travel.dll
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\Dimensional_travel.pdb
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\GodotSharp.dll
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.csproj.AssemblyReference.cache
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.AssemblyInfoInputs.cache
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.AssemblyInfo.cs
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.csproj.CoreCompileInputs.cache
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensio.E4B5B91C.Up2Date
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.dll
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\refint\Dimensional_travel.dll
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.pdb
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\Dimensional_travel.genruntimeconfig.cache
+E:\Projects\GodotProjects\dimensional-travel\.godot\mono\temp\obj\Debug\ref\Dimensional_travel.dll

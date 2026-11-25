@@ -1,0 +1,12 @@
+res://outcome/win.tscn::3fc3cb38854f715dbbb51895ba0e9c3b::1771652876::res://.godot/exported/133200997/export-0ccfe9a4f8d5c59f1f286aa7445398ee-win.scn
+res://SelectLevel/LevelSelect.tscn::d2e9149286888f3de25612e8b1e8d8ef::1781845884::res://.godot/exported/133200997/export-17334df800f39c08adda68cb1b680a66-LevelSelect.scn
+res://StartPage/StartPage.tscn::10c407a9cccff92fc47657a1d04f70fc::1770625015::res://.godot/exported/133200997/export-b17cbfa7e5da56b2373a1d4587259620-StartPage.scn
+res://things/ball.tscn::3f5c4761b83e863158b71677e2fa570d::1771304794::res://.godot/exported/133200997/export-20a92d1f1296d1b33003520f1c50ea7d-ball.scn
+res://things/door.tscn::bb865e6ceb9efd6a94694225fedd0ded::1771579291::res://.godot/exported/133200997/export-c7741d024e1881b89edde27fd4aa76ae-door.scn
+res://things/end.tscn::f9e2640cb8838b5bc0878f211db18564::1771652416::res://.godot/exported/133200997/export-060c3c3b2972268ccbfaba5426d50da9-end.scn
+res://things/ground.tscn::960a83edbb4ef37bcb411fa4e9431c01::1771303643::res://.godot/exported/133200997/export-3bacf65236ca472e218894c98e5c6ba0-ground.scn
+res://things/player.tscn::2cd467678986ebf7f7af1cbcf675632a::1771223903::res://.godot/exported/133200997/export-8fcde48fd5c4df3f174a1dfb279e7027-player.scn
+res://Levels/Level0.tscn::466d1270476026c6e637521d5d1174ba::1777618048::res://.godot/exported/133200997/export-5a3e48b6b37ad2106ce2773b29eef6ec-Level0.scn
+res://Levels/Level1.tscn::add3bad9a81bdd84173ce12a4ae7d155::1780222871::res://.godot/exported/133200997/export-76b8bc62749e8cf48c832874a4449e21-Level1.scn
+res://Levels/Level2.tscn::2ad5c612b2a66a6ae5638ab372faee76::1781846205::res://.godot/exported/133200997/export-358e721cb96286cf0bc2146e52b0d759-Level2.scn
+res://things/levelSelectButton.tscn::d2e4afd6e8ca0c0bb76b44613f9ff8b2::1780222778::res://.godot/exported/133200997/export-251acd58913d4ed0fea03f86c913c6ea-levelSelectButton.scn

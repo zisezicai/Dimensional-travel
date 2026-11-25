@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2ub1ctlpg4or"]
+
+[ext_resource type="Script" uid="uid://dxhkeimqauvyx" path="res://scripts/End.cs" id="1_1apqi"]
+[ext_resource type="Texture2D" uid="uid://b5224kxag0t7v" path="res://pictures/end.png" id="2_pdels"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_codpj"]
+size = Vector2(64, 58)
+
+[node name="end" type="Area2D"]
+script = ExtResource("1_1apqi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_pdels")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_codpj")

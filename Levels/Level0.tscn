@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://c3ams35ewuj8i"]
+
+[ext_resource type="Script" uid="uid://dc4ln7m2shhca" path="res://Levels/Level.cs" id="1_4gjkj"]
+[ext_resource type="PackedScene" uid="uid://b3guur1paqtn5" path="res://things/player.tscn" id="2_codpj"]
+[ext_resource type="PackedScene" uid="uid://cxj32vty31acf" path="res://things/ground.tscn" id="3_t7ca5"]
+[ext_resource type="PackedScene" uid="uid://d2ub1ctlpg4or" path="res://things/end.tscn" id="4_2o4ko"]
+
+[node name="Level0" type="Node2D" unique_id=1634454668]
+script = ExtResource("1_4gjkj")
+
+[node name="ground" parent="." unique_id=1935973399 instance=ExtResource("3_t7ca5")]
+texture_filter = 1
+position = Vector2(383, 500)
+scale = Vector2(8.9, 1)
+
+[node name="ground3" parent="." unique_id=147571935 instance=ExtResource("3_t7ca5")]
+texture_filter = 1
+position = Vector2(1012, 334)
+scale = Vector2(5.6, 1)
+
+[node name="ground4" parent="." unique_id=967645896 instance=ExtResource("3_t7ca5")]
+texture_filter = 1
+position = Vector2(1939, 334)
+scale = Vector2(5.6, 1)
+
+[node name="ground2" parent="." unique_id=1785480332 instance=ExtResource("3_t7ca5")]
+texture_filter = 1
+position = Vector2(768, 417)
+rotation = -1.5707964
+scale = Vector2(2, 1)
+
+[node name="player" parent="." unique_id=1544951688 instance=ExtResource("2_codpj")]
+position = Vector2(280, 230)
+startPosition = Vector2(280, 230)
+
+[node name="end" parent="." unique_id=2038710053 instance=ExtResource("4_2o4ko")]
+position = Vector2(2148, 301)

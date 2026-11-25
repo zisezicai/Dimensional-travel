@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://cpn0yvo83dtfo"]
+
+[ext_resource type="PackedScene" uid="uid://0ytkcmtkb8b6" path="res://things/levelSelectButton.tscn" id="1_3jiw0"]
+
+[node name="LevelSelect" type="Control" unique_id=731538792]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LevelSelectButton" parent="." unique_id=794029280 instance=ExtResource("1_3jiw0")]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 70.0
+offset_right = 291.0
+offset_bottom = 188.0
+
+[node name="LevelSelectButton1" parent="." unique_id=427763148 instance=ExtResource("1_3jiw0")]
+layout_mode = 0
+offset_left = 398.0
+offset_top = 402.0
+offset_right = 620.0
+offset_bottom = 520.0
+levelIndex = 1
+
+[node name="LevelSelectButton2" parent="." unique_id=155553932 instance=ExtResource("1_3jiw0")]
+layout_mode = 0
+offset_left = 831.0
+offset_top = 216.0
+offset_right = 1053.0
+offset_bottom = 334.0
+levelIndex = 2

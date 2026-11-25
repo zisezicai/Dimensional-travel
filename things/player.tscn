@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3guur1paqtn5"]
+
+[ext_resource type="Script" uid="uid://dvlll2r7ppcy8" path="res://scripts/Player.cs" id="1_0tqh3"]
+[ext_resource type="Texture2D" uid="uid://b6hf2883hf464" path="res://pictures/玩家.png" id="2_ctq6p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_codpj"]
+size = Vector2(52, 60)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h3k2q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ctq6p")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ctq6p")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ctq6p")
+}],
+"loop": true,
+"name": &"runToLeft",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ctq6p")
+}],
+"loop": true,
+"name": &"runToRight",
+"speed": 5.0
+}]
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_0tqh3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_codpj")
+
+[node name="appearance" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_h3k2q")
+animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="energyLabel" type="Label" parent="."]
+offset_left = -567.0
+offset_top = -313.0
+offset_right = -527.0
+offset_bottom = -290.0

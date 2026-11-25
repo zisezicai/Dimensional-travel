@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dvvdssnw212e5"]
+
+[ext_resource type="PackedScene" uid="uid://d2ub1ctlpg4or" path="res://things/end.tscn" id="1_fhqol"]
+[ext_resource type="Script" uid="uid://dc4ln7m2shhca" path="res://Levels/Level.cs" id="1_iotdp"]
+[ext_resource type="PackedScene" uid="uid://b3guur1paqtn5" path="res://things/player.tscn" id="2_iotdp"]
+[ext_resource type="PackedScene" uid="uid://cxj32vty31acf" path="res://things/ground.tscn" id="3_nutv8"]
+
+[node name="Level1" type="Node2D" unique_id=1771643836]
+script = ExtResource("1_iotdp")
+
+[node name="end" parent="." unique_id=107600874 instance=ExtResource("1_fhqol")]
+position = Vector2(254, 274)
+
+[node name="player" parent="." unique_id=2137537555 instance=ExtResource("2_iotdp")]
+position = Vector2(118, 108)
+
+[node name="ground" parent="." unique_id=192505272 instance=ExtResource("3_nutv8")]
+position = Vector2(550, 158)
+scale = Vector2(12.145, 1)
+
+[node name="ground2" parent="." unique_id=81691464 instance=ExtResource("3_nutv8")]
+position = Vector2(1146, 487)
+rotation = 0.59585154
+scale = Vector2(8.102, 1)
+
+[node name="ground3" parent="." unique_id=1385954780 instance=ExtResource("3_nutv8")]
+position = Vector2(241, 310)
+scale = Vector2(2.585, 1)
